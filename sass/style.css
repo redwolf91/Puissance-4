@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+}
+
+#puissance4 {
+  background-color: #000007;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.derniere-red {
+  background-color: #db7878 !important;
+}
+.derniere-yellow {
+  background-color: #dbc478 !important;
+}
+.derniere-blue {
+  background-color: #788fdb !important;
+}
+.derniere-green {
+  background-color: #94db78 !important;
+}
+
+table {
+  border: 2px solid black;
+}
+table th {
+  border: 1px solid black;
+}
+table td {
+  border: 1px solid black;
+}
+
+.col {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 50%;
+  margin: 5px;
+}
+.col.red {
+  background-color: red !important;
+}
+.col.yellow {
+  background-color: yellow !important;
+}
+.col.blue {
+  background-color: blue !important;
+}
+.col.green {
+  background-color: green !important;
+}
+.col.empty {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */

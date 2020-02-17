@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+}
+
+#puissance4 {
+    background-color: rgb(0, 0, 7);
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.derniere- {
+    &red {
+        background-color: rgb(219, 120, 120) !important;
+    }
+    &yellow {
+        background-color: rgb(219, 196, 120) !important;
+    }
+    &blue {
+        background-color: rgb(120, 143, 219) !important;
+    }
+    &green {
+        background-color: rgb(148, 219, 120) !important;
+    }
+}
+
+
+table {
+    border: 2px solid black;
+
+    th {
+        border: 1px solid black;
+    }
+
+    td {
+        border: 1px solid black;
+    }
+}
+
+
+@import "_colRow.scss";
